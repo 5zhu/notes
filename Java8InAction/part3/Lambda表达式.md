@@ -50,6 +50,6 @@ Lambda
 - 指 向 任意类型实例方法 的方法引用（例如 String 的 length 方法，写作
 String::length）
 -(3) 指向现有对象的实例方法的方法引用（假设你有一个局部变量expensiveTransaction
-用于存放Transaction类型的对象，它支持实例方法getValue，那么你就可以写expensiveTransaction::getValue）
+用于存放Transaction类型的对象，它支持实例方法getValue，那么你就可以写expensive.Transaction::getValue）
 
 ![](https://s1.ax2x.com/2017/12/28/0MboG.png)
